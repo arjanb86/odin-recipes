@@ -1,4 +1,30 @@
-div {
-    background-color: blueviolet;
-    color: blanchedalmond;
+body {
+    background-color: black;
+    color: white;
+    font-family: "Arial", "Verdana", sans-serif;
+}
+
+a:link, a:visited {
+    color: white;
+}
+ a:hover {
+    color: darkorange;
+}
+
+h3, .header-title {
+    color: darkorange;
+}
+
+.welcome {
+    background-color: darkgray;
+    color: black;
+}
+
+.recipe-list {
+    text-align: left;
+}
+
+.header-title, .welcome {
+    text-align: center;
+    font-weight: 700;
 }
